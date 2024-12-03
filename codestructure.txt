@@ -1,0 +1,27 @@
+Main Classes:
+1. SnapshotApp:
+- The primary class that initializes the Tkinter GUI and handles the live video feed.
+- Includes a button for accessing classifier options.
+
+2. EmotionRecognitionApp:
+- Opens the Emotion Recognition module.
+- Uses DeepFace for detecting emotions and overlays the results on the video feed.
+- Provides options to save snapshots and exit the module.
+
+3. CatVsDogApp:
+- Placeholder for a Cat vs Dog classification module.
+
+4. FaceRecognizerApp:
+- Placeholder for a Face Recognition module.
+
+Key Methods:
+- __init__: Initializes the application or module.
+- update: Continuously updates the video feed in the GUI.
+- show_classifier_options: Displays buttons for available classifiers.
+- save_snapshot: Captures and saves the current video frame
+
+
+Future Enhancements
+1. Cat vs Dog Module: Implement a model to classify between images of cats and dogs.
+2. Face Recognition: Add functionality to recognize and identify faces.
+3. Improved GUI: Enhance the layout and design for a more modern look.
